@@ -1,0 +1,73 @@
+.titulo-setup {
+    margin-top: 5%;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.item-setup {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: flex-start;
+    background-color: #b4a899;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    gap: 25px;
+    width: 60%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.item-setup img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.item-setup .info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    gap: 10px; 
+    color: rgb(51, 47, 42);
+}
+
+.item-setup h2 {
+    margin-top: 10px;
+    font-size: 250%;
+    font-weight: bold;
+    box-shadow: 0px 1px 0px 0px rgb(51, 47, 42);
+}
+
+
+.item-setup p {
+    margin: 0;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.boton-compra-container {
+    display: flex; 
+    gap: 25px;
+    justify-content: flex-start;
+}
+
+.boton-compra {
+    padding: 10px 20px;
+    background-color: #81776a;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: auto; 
+    max-width: 150px; 
+}
+
+.boton-compra:hover {
+    background-color: #61584c;
+}
